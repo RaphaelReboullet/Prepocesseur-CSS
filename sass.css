@@ -37,8 +37,6 @@
     font-family: 'Nancy Lorenz';
 }
 
-
-
 .navbar{
     background-color: #ff5300;
     font-family: 'Aniron';
@@ -51,9 +49,6 @@
 .selections a:hover{
     text-decoration: underline;
 }
-
-
-
 
 .symbole{
     font-family: 'Tengwar Annatar';
@@ -72,14 +67,10 @@ a:hover .symboles {
     display: initial;
 }
 
-
-
 .Fellows{
     background-image: url("https://res.cloudinary.com/dtpfajz6i/image/upload/v1537522223/bg_light.png");
     padding-top: 80px;
 }
-
-
 
 .navbar-light .navbar-nav .nav-link {
     color: white;
@@ -216,3 +207,34 @@ a:hover .symboles {
         margin: 0px;
         margin-left: -24px;
       }
+
+      /*   
+      
+    @mixin ring ($borderwidth, $width, $height, $color, $margin)
+   {
+    border-radius: 50%;
+    border-width: $borderwidth;
+    width: $width;
+    height: $height;
+    border-style: solid;
+    color: $color;
+    box-shadow: inset $width/20 $height/20 $borderwidth lighten($color,30), $width/20 $height/20 $borderwidth lighten($color,30); 
+    margin: $margin;
+   }
+    
+    .circle1{
+      @include ring (4px, 50px, 50px, #ff5600, 10px);
+    }
+    
+    .circle2{
+      @include ring (10px, 150px, 150px, #fbd600, 20px);
+    }
+    
+    @for $i from 1 through 6 {
+    .loopcircle-#{$i} {
+        @include ring (2px*$i, $i*20px, $i*20px, #444443, 0px);
+        margin-left : -4px*$i;
+        }
+    }
+
+    
