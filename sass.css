@@ -1,0 +1,218 @@
+@font-face {
+    font-family: 'Aniron';
+    src: url('anirm___.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tengwar Annatar';
+    src: url('tngani.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nancy Lorenz';
+    src: url('partybusiness.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.rouge {
+    color: #ff5500;
+}
+
+.text {
+    position: absolute;
+    background-color: #dadada;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1.3em;
+    top : 20px;
+    margin-left: 53px;
+    z-index: 100;
+    max-width: 70%;
+    width: 50%;
+    font-family: 'Nancy Lorenz';
+}
+
+
+
+.navbar{
+    background-color: #ff5300;
+    font-family: 'Aniron';
+}
+
+.selections a{
+    color: #ffefe5;
+}
+
+.selections a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+.symbole{
+    font-family: 'Tengwar Annatar';
+    font-size: 2em;
+    color: #ff5500;
+}
+
+.symboles{
+    display: none;
+}
+
+a:hover .symboles {
+    font-family: 'Tengwar Annatar';
+    font-size: 1.3em;
+    color: #ff5500;
+    display: initial;
+}
+
+
+
+.Fellows{
+    background-image: url("https://res.cloudinary.com/dtpfajz6i/image/upload/v1537522223/bg_light.png");
+    padding-top: 80px;
+}
+
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+}
+
+.hone {
+    font-family: 'Aniron';
+    text-align: center;
+    font-size: 1.7em;
+    margin-top: 12px;
+}
+
+.htwo {
+    font-family: 'Aniron';
+    text-align: center;
+    font-size: 2em;
+    margin-top: 70px;
+}
+
+.hthree{
+    font-family: 'Aniron';
+    text-align: center;
+    font-size: 2em;
+    margin-top: 70px;
+}
+
+.first  {
+ margin-bottom: 80px;
+}
+
+.second{
+    margin-bottom: 80px;
+}
+
+.first .second .third
+{
+    width: 90%;
+}
+
+    .circle1 {
+        border-radius: 50%;
+        border-width: 4px;
+        width: 50px;
+        height: 50px;
+        border-style: solid;
+        color: #ff5600;
+        box-shadow: inset 2.5px 2.5px 4px #ffbb99, 2.5px 2.5px 4px #ffbb99;
+        margin: 10px;
+      }
+      
+      .circle2 {
+        border-radius: 50%;
+        border-width: 10px;
+        width: 150px;
+        height: 150px;
+        border-style: solid;
+        color: #fbd600;
+        box-shadow: inset 7.5px 7.5px 10px #ffef95, 7.5px 7.5px 10px #ffef95;
+        margin: 20px;
+      }
+      
+      .loopcircle-1 {
+        border-radius: 50%;
+        border-width: 2px;
+        width: 20px;
+        height: 20px;
+        border-style: solid;
+        color: #444443;
+        box-shadow: inset 1px 1px 2px #91918f, 1px 1px 2px #91918f;
+        margin: 0px;
+        margin-left: -4px;
+      }
+      
+      .loopcircle-2 {
+        border-radius: 50%;
+        border-width: 4px;
+        width: 40px;
+        height: 40px;
+        border-style: solid;
+        color: #444443;
+        box-shadow: inset 2px 2px 4px #91918f, 2px 2px 4px #91918f;
+        margin: 0px;
+        margin-left: -8px;
+      }
+      
+      .loopcircle-3 {
+        border-radius: 50%;
+        border-width: 6px;
+        width: 60px;
+        height: 60px;
+        border-style: solid;
+        color: #444443;
+        box-shadow: inset 3px 3px 6px #91918f, 3px 3px 6px #91918f;
+        margin: 0px;
+        margin-left: -12px;
+      }
+      
+      .loopcircle-4 {
+        border-radius: 50%;
+        border-width: 8px;
+        width: 80px;
+        height: 80px;
+        border-style: solid;
+        color: #444443;
+        box-shadow: inset 4px 4px 8px #91918f, 4px 4px 8px #91918f;
+        margin: 0px;
+        margin-left: -16px;
+      }
+      
+      .loopcircle-5 {
+        border-radius: 50%;
+        border-width: 10px;
+        width: 100px;
+        height: 100px;
+        border-style: solid;
+        color: #444443;
+        box-shadow: inset 5px 5px 10px #91918f, 5px 5px 10px #91918f;
+        margin: 0px;
+        margin-left: -20px;
+      }
+      
+      .loopcircle-6 {
+        border-radius: 50%;
+        border-width: 12px;
+        width: 120px;
+        height: 120px;
+        border-style: solid;
+        color: #444443;
+        box-shadow: inset 6px 6px 12px #91918f, 6px 6px 12px #91918f;
+        margin: 0px;
+        margin-left: -24px;
+      }
